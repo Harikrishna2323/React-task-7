@@ -1,15 +1,13 @@
+import { Home } from "@material-ui/icons";
 import React from "react";
-import Navbar from './components/Navbar';
-
-
+import Navbar from "./components/Navbar";
 
 function App() {
   return (
     <div className="wrapper">
-    <Navbar />
-      </div>
-      
-
+      <Navbar />
+      <Home />
+    </div>
   );
 }
 
